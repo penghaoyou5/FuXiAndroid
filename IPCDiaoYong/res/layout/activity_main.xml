@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText 
+        android:layout_height="100dp"
+        android:id="@+id/et_inttye"
+        android:gravity="center"
+        android:inputType="number"
+        android:layout_width="match_parent"/>
+    
+    <Button
+        android:id="@+id/btn_diaoyong"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="用aidl" />
+
+</LinearLayout>
